@@ -1,0 +1,123 @@
+/*============
+Page variables
+==============*/
+
+:root {
+  /*color scheme*/
+
+  /*font and text*/
+}
+
+/*======================================
+Back to Basics - reset browser defaults
+=======================================*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/*===============================
+Global styles and reset defaults
+================================*/
+
+body * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*reset default font - never shall Time New Roman be seen again!*/
+
+/*================
+Page Layout - Grid
+=================*/
+
+/*=====
+Header 
+=======*/
+
+/*=======
+Nav Menu
+=========*/
+
+/*==========================
+Main and Section containers
+===========================*/
+
+/*====
+Footer
+=======*/
+
+/*================
+The little touches
+=================*/
+
+/*Back to top - only for small mobile screen views*/
+.backtotop {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 2rem;
+  padding: 0.4rem;
+}
+
+/*
+.backtotop a {
+  color: var(--light-colour, #9a8c98);
+  text-shadow: 1px 1px 2px black;
+}
+*/
+
+/*================
+Responsivesnness
+==================*/
+/*
+@media only screen and (min-width: 1024px) {
+}
+*/
+
+/*=============
+Accessibility
+===============*/
+
+/*Reset to user browser preference*/
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    scroll-behavior: auto;
+  }
+}
+
+/*======================
+Ye Olde Time Print View
+========================*/
+/*
+@media print {
+
+/*remove unneeded elements*/
+
+/*display footer links*/
+
+  footer a:link {
+    color: #000;
+    margin: 0;
+    display: block;
+    font-size: 10pt;
+  }
+
+  footer a::after {
+    content: " [" attr(href) "]";
+  }
+
+  footer a:link,
+  footer a:visited {
+    color: #000;
+    background: none;
+    padding: 0;
+  }
+}
+
