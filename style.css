@@ -31,6 +31,13 @@ body * {
 }
 
 /*reset default font - never shall Time New Roman be seen again!*/
+h1,
+h3,
+h5,
+p,
+li {
+  font-family: Verdana, sans-serif;
+}
 
 /*================
 Page Layout - Grid
