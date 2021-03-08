@@ -1,8 +1,9 @@
-<span class="really-look-at-me-text"></span>
+<span class="really-look-at-me-text"></span> - Bold & Italic
 
-<span class="look-at-me-text"></span>
+<span class="look-at-me-text"></span> - Italic
 
-<span class="code-word"></span>
+<span class="code-word"></span> - Highlight with background colour/font and size
 
 
 Colour palette:
+
