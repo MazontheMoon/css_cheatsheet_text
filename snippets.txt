@@ -7,3 +7,5 @@
 
 Colour palette:
 
+colour var = hsla/rgb, fallback = hex
+
