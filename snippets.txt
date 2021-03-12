@@ -4,6 +4,9 @@
 
 <span class="code-word"></span> - Highlight with background colour/font and size
 
+<div class="code_box"></div>
+
+<div class="subsection_box"></div>
 
 Colour palette:
 
