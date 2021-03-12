@@ -25,8 +25,8 @@ Version 1.1 - Initial content
 
 ## Code Naming Conventions
 
-Naming convention using hyphens (-) to separate words:
-Example "section-content"
+Naming convention using underscores (_) to separate words:
+Example "section_content"
 
 ## Git Commit Naming Conventions
 
