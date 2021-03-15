@@ -151,6 +151,34 @@ Finding your way around
       <!--section 3 - font-style - subsection 1 font-size-->
       <div id="f_size_section" class="subsection_box">
         <h3>Font Size</h3>
+        <div class="code_box">
+          <p>Size is commonly set as px, em, rem, vw, ch or pt (print view). 16px is the usual browser default.</p>
+          <code>p { <br>
+            font-size: 1em;<br>
+            }
+          </code>
+        </div>
+        <ul>
+          <li id="h1">H1</li>
+          <li id="h2">H2</li>
+          <li id="h3">H3</li>
+          <li id="h4">H4</li>
+          <li id="h5">H5</li>
+          <li id="h6">H6</li>
+          <li id="hp">P</li>
+        </ul>
+        <div class="code_box">
+          <p>To make <span class="code-word">font-size</span> responsive we can use <span class="code-word">clamp()</span>...</p>
+          <code>p { <br>
+            font-size: clamp(1rem, 2.5vw, 2rem);<br>
+            }
+          </code>
+        </div>
+        <figure>
+          <figcaption>Seeing is believing....Clamp</figcaption>
+          <div id="fig_clamp"></div>
+        </figure>
+
       </div>
       <!--section 3 - font-style - subsection 2 font-style-->
       <div id="f_style_section" class="subsection_box">
