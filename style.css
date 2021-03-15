@@ -2,13 +2,11 @@
 Page variables
 ==============*/
 
-
 :root {
   /*color scheme*/
 
   /*font and text*/
 }
-
 
 /*======================================
 Back to Basics - reset browser defaults
@@ -33,12 +31,8 @@ body * {
 }
 
 /*reset default font - never shall Time New Roman be seen again!*/
-h1,
-h3,
-h5,
-p,
-li {
-  font-family: Verdana, sans-serif;
+h1,h2,h3,p,li, figcaption{
+  font-family:“Trebuchet MS”, Verdana,sans-serif;
 }
 
 /*================
@@ -57,6 +51,210 @@ Nav Menu
 Main and Section containers
 ===========================*/
 
+/*temporary boxes*/
+
+header, main, footer {
+  border: solid 2px black;
+}
+
+nav, section {
+  border: solid 2px red;
+}
+
+.subsection_box {
+  border: solid 2px blue;
+}
+h1, h2, h3 {
+  border: solid 2px green;
+}
+
+/*FONT STACK EXAMPLES*
+
+#arial {
+
+}
+
+#arial_b {
+
+}
+
+#arial_n {
+
+}
+
+#arial_rb {
+
+}
+
+#avant_garde {
+
+}
+
+#calibri {
+
+}
+
+#candara{
+
+}
+
+#cent_goth {
+
+}
+
+#franklin {
+
+}
+
+#futura {
+
+}
+
+#geneva {
+
+}
+
+#gill_sans {
+
+}
+
+#helvetica {
+
+}
+
+#impact{
+
+}
+
+
+#lucinda_grande {
+
+}
+
+#optima {
+
+}
+
+#segoe {
+
+}
+
+#tahoma {
+
+}
+
+#trebuchet {
+
+}
+
+#verdana {
+
+}
+
+#caslon {
+
+}
+
+#bodoni {
+
+}
+
+#book_antiqua {
+
+}
+
+#calisto {
+}
+
+#cambria {
+
+}
+
+#didot {
+
+}
+
+#garamund {
+
+}
+
+#georgia {
+
+}
+
+#goudy {
+
+}
+
+#hoefler {
+
+}
+
+#lucida {
+
+}
+
+#palatino {
+
+}
+
+#perpetua {
+
+}
+
+#rockwell {
+
+}
+
+#rockwell_eb {
+
+}
+
+#baskerville {
+
+}
+
+#times_new_roman {
+
+}
+
+#consolas {
+
+}
+
+#courier {
+
+}
+
+#lucida_c {
+
+}
+
+#lucida_type {
+
+}
+
+#monaco {
+
+}
+
+#anadle {
+
+}
+
+#copperplate {
+
+}
+
+#papyrus {
+
+}
+
+#brush {
+
+}
+
+*/
 /*====
 Footer
 =======*/
@@ -104,6 +302,7 @@ Accessibility
 /*======================
 Ye Olde Time Print View
 ========================*/
+/*
 @media print {
 
 /*remove unneeded elements*/

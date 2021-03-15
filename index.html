@@ -36,7 +36,9 @@ Finding your way around
     <!--section 1 - intro-->
     <section id="intro_box">
       <h2>Why?</h2>
-      <p></p>
+      <p>My series of cheatsheets have led me through the design process of laying out and positioning elements on the page, and how best to select the elements to apply styling.</p>
+      <p>Now that I have my building blocks in place and my background set it is time to look at a very simple but possibly the most important type of content on any project....the text.</p>
+      <p>All text inside an element is all affected as one single entity (only &lt;span&gt;, &lt;strong&gt;, and similar, or pseudo-elements (::first-letter) can be used to style subsections of text).</p>
 
       <!--backtotop-->
     </section>
@@ -50,26 +52,88 @@ Finding your way around
         <li><a href="#fantasy_section">Fantasy</a></li>
         <li><a href="#cursive_section">Cursive script</a></li>
       </ul>
-      <div class="code_box"></div>
+      <div class="code_box">
+        <p>Web safe fonts (pre-installed in most O.S but some are Windows only or MAC only) used mainly for fallback in font stacks if the imported font or primary font is not supported.</p>
+        <code>p {<br>
+          font-family: var(--header-font), “Trebuchet MS”, Verdana,sans-serif;<br>
+          }
+        </code>
+      </div>
       <!--section 2 - font-stack - subsection 1 san-serif-->
       <div id="sanserif_section" class="subsection_box">
         <h3>San-Serif</h3>
+        <ul>
+          <li id="arial">Arial</li>
+          <li id="arial_b">Arial Black</li>
+          <li id="arial_n">Arial Narrow</li>
+          <li id="arial_rb">Arial Rounded MT Bold</li>
+          <li id="avant_garde">Avant Garde</li>
+          <li id="calibri">Calibri</li>
+          <li id="candara">Candara</li>
+          <li id="cent_goth">Century Gothic</li>
+          <li id="franklin">Franklin Gothic Medium</li>
+          <li id="futura">Futura</li>
+          <li id="geneva">Geneva</li>
+          <li id="gill_sans">Gill Sans</li>
+          <li id="helvetica">Helvetica</li>
+          <li id="impact">Impact</li>
+          <li id="lucinda_grande">Lucinda Grande</li>
+          <li id="optima">Optima</li>
+          <li id="segoe">Segoe UI</li>
+          <li id="tahoma">Tahoma</li>
+          <li id="trebuchet">Trebuchet MS</li>
+          <li id="verdana">Verdana</li>
+        </ul>
       </div>
       <!--section 2 - font-stack - subsection 2 serif-->
       <div id="serif_section" class="subsection_box">
         <h3>Serif</h3>
+        <ul>
+          <li id="caslon">Big Caslon</li>
+          <li id="bodoni">Bodoni MT</li>
+          <li id="book_antiqua">Book Antiqua</li>
+          <li id="calisto">Calisto MT</li>
+          <li id="cambria">Cambria</li>
+          <li id="didot">Didot</li>
+          <li id="garamund">Garamund</li>
+          <li id="georgia">Georgia</li>
+          <li id="goudy">Goudy Old Style</li>
+          <li id="hoefler">Hoefler Text</li>
+          <li id="lucida">Lucida Bright</li>
+          <li id="palatino">Palatino</li>
+          <li id="perpetua">Perpetua</li>
+          <li id="rockwell">Rockwell</li>
+          <li id="rockwell_eb">Rockwell Extra Bold</li>
+          <li id="baskerville">Baskerville</li>
+          <li id="times_new_roman">Times New Roman</li>
+        </ul>
       </div>
       <!--section 2 - font-stack - subsection 3 monospace-->
       <div id="mono_section" class="subsection_box">
         <h3>Monospace</h3>
+        <ul>
+          <li id="consolas">Consolas</li>
+          <li id="courier">Courier New</li>
+          <li id="lucida_c">Lucida Console</li>
+          <li id="lucida_type">Lucida Sans Typewriter</li>
+          <li id="monaco">Monaco</li>
+          <li id="anadle">Anadle Mono</li>
+        </ul>
       </div>
       <!--section 2 - font-stack - subsection 4 fantasy-->
       <div id="fantasy_section" class="subsection_box">
         <h3>Fantasy</h3>
+        <ul>
+          <li id="copperplate">Copperplate</li>
+          <li id="papyrus">Papyrus</li>
+        </ul>
       </div>
       <!--section 2 - font-stack - subsection 5 cursive-->
       <div id="cursive_section" class="subsection_box">
         <h3>Cursive Script</h3>
+        <ul>
+          <li id="brush">Brush Script MT</li>
+        </ul>
       </div>
       <!--backtotop-->
     </section>
