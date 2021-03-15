@@ -4,7 +4,12 @@
 
 <span class="code-word"></span> - Highlight with background colour/font and size
 
-<div class="code_box"></div>
+<div class="code_box">
+<p>
+</p>
+<code>
+</code>
+</div>
 
 <div class="subsection_box"></div>
 
