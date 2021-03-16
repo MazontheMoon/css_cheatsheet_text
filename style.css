@@ -68,193 +68,202 @@ h1, h2, h3 {
   border: solid 2px green;
 }
 
-/*FONT STACK EXAMPLES*
+/*FONT STACK EXAMPLES*/
 
 #arial {
-
+  font-family: sans-serif;
 }
 
 #arial_b {
-
+  font-family: "Arial Black", sans-serif;
 }
 
 #arial_n {
-
+  font-family: "Arial Narrow", sans-serif;
 }
 
 #arial_rb {
-
+  font-family: "Arial Rounded MT Bold", sans-serif;
 }
 
 #avant_garde {
-
+  font-family: "Avant Garde", sans-serif;
 }
 
 #calibri {
-
+  font-family: Calibri, sans-serif;
 }
 
 #candara{
-
+  font-family: Candara, sans-serif;
 }
 
 #cent_goth {
-
+  font-family: "Century Gothic", sans-serif;
 }
 
 #franklin {
-
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 
 #futura {
-
+  font-family: Futura, sans-serif;
 }
 
 #geneva {
-
+  font-family: Geneva, sans-serif;
 }
 
 #gill_sans {
-
+  font-family: "Gill Sans", sans-serif;
 }
 
 #helvetica {
-
+  font-family: Helvetica, sans-serif;
 }
 
 #impact{
-
+  font-family: Impact, sans-serif;
 }
 
-
 #lucinda_grande {
-
+  font-family: "Lucinda Grande", sans-serif;
 }
 
 #optima {
-
+  font-family: Optima, sans-serif;
 }
 
 #segoe {
-
+  font-family: "Segoe UI", sans-serif;
 }
 
 #tahoma {
-
+  font-family: Tahoma, sans-serif;
 }
 
 #trebuchet {
-
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 #verdana {
-
+  font-family: Verdana, sans-serif;
 }
 
 #caslon {
-
+  font-family: "Big Caslon", serif;
 }
 
 #bodoni {
-
+  font-family: "Bodoni MT", serif;
 }
 
 #book_antiqua {
-
+  font-family: "Book Antiqua", serif;
 }
 
 #calisto {
+  font-family: "Calisto MT", serif;
 }
 
 #cambria {
-
+  font-family: Cambria, serif;
 }
 
 #didot {
-
+  font-family: Didot, serif;
 }
 
 #garamund {
-
+  font-family: Garamund, serif;
 }
 
 #georgia {
-
+  font-family: Georgia, serif;
 }
 
 #goudy {
-
+  font-family: "Goudy Old Style", serif;
 }
 
 #hoefler {
-
+  font-family: "Hoefler Text", serif;
 }
 
 #lucida {
-
+  font-family: "Lucida Bright", serif;
 }
 
 #palatino {
-
+  font-family: Palatino, serif;
 }
 
 #perpetua {
-
+  font-family: Perpetua, serif;
 }
 
 #rockwell {
-
-}
+  font-family: Rockwell, serif;
+ }
 
 #rockwell_eb {
-
+  font-family: "Rockwell Extra Bold", serif;
 }
 
 #baskerville {
-
+  font-family: Baskerville, serif;
 }
 
 #times_new_roman {
-
+  font-family: "Times New Roman", serif;
 }
 
 #consolas {
-
+  font-family: Consolas, monospace;
 }
 
 #courier {
-
+  font-family:"Courier New", monospace;
 }
 
 #lucida_c {
-
+  font-family: "Lucida Console", monospace;
 }
 
 #lucida_type {
-
+  font-family: "Lucida Sans Typewriter", monospace;
 }
 
 #monaco {
-
+  font-family: Monaco, monospace;
 }
 
 #anadle {
-
+  font-family: "Anadle Mono", monospace;
 }
 
 #copperplate {
-
+  font-family: Copperplate, fantasy;
 }
 
 #papyrus {
-
+  font-family: Papyrus, fantasy;
 }
 
 #brush {
-
+  font-family: "Brush Script MT", cursive;
 }
 
-*/
+/*FONT STYLE EXAMPLES*/
+
+#italic {
+  font-style: italic;
+}
+
+#oblique {
+  font-style: oblique;
+}
+
 /*====
 Footer
 =======*/
