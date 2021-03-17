@@ -32,8 +32,13 @@ body * {
 }
 
 /*reset default font - never shall Time New Roman be seen again!*/
-h1,h2,h3,p,li, figcaption{
-  font-family:“Trebuchet MS”, Verdana,sans-serif;
+h1,
+h2,
+h3,
+p,
+li,
+figcaption {
+  font-family: “Trebuchet MS”, Verdana, sans-serif;
 }
 
 /*================
@@ -54,18 +59,23 @@ Main and Section containers
 
 /*temporary boxes*/
 
-header, main, footer {
+header,
+main,
+footer {
   border: solid 2px black;
 }
 
-nav, section {
+nav,
+section {
   border: solid 2px red;
 }
 
 .subsection_box {
   border: solid 2px blue;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   border: solid 2px green;
 }
 
@@ -95,7 +105,7 @@ h1, h2, h3 {
   font-family: Calibri, sans-serif;
 }
 
-#candara{
+#candara {
   font-family: Candara, sans-serif;
 }
 
@@ -123,7 +133,7 @@ h1, h2, h3 {
   font-family: Helvetica, sans-serif;
 }
 
-#impact{
+#impact {
   font-family: Impact, sans-serif;
 }
 
@@ -205,7 +215,7 @@ h1, h2, h3 {
 
 #rockwell {
   font-family: Rockwell, serif;
- }
+}
 
 #rockwell_eb {
   font-family: "Rockwell Extra Bold", serif;
@@ -224,7 +234,7 @@ h1, h2, h3 {
 }
 
 #courier {
-  font-family:"Courier New", monospace;
+  font-family: "Courier New", monospace;
 }
 
 #lucida_c {
@@ -314,6 +324,25 @@ h1, h2, h3 {
 #w900 {
   font-weight: 900;
 }
+
+/*TEXT TRANSFORM EXAMPLES*/
+
+#upper {
+  text-transform: uppercase;
+}
+
+#lower {
+  text-transform: lowercase;
+}
+
+#capitalize {
+  text-transform: capitalize;
+}
+
+#full_width {
+  text-transform: full-width;
+}
+
 /*====
 Footer
 =======*/
@@ -361,11 +390,11 @@ Accessibility
 /*======================
 Ye Olde Time Print View
 ========================*/
+
 @media print {
+  /*remove unneeded elements*/
 
-/*remove unneeded elements*/
-
-/*display footer links*/
+  /*display footer links*/
 
   footer a:link {
     color: #000;
@@ -385,4 +414,3 @@ Ye Olde Time Print View
     padding: 0;
   }
 }
-
