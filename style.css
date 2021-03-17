@@ -343,6 +343,54 @@ h3 {
   text-transform: full-width;
 }
 
+/*TEXT DECORATION EXAMPLES*/
+
+#text_dec_underline {
+  text-decoration-line: underline;
+}
+
+#text_dec_overline {
+  text-decoration-line: overline;
+}
+
+#text_dec_linethrough {
+  text-decoration-line: line-through;
+}
+
+#text_dec_solid {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+#text_dec_double {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+#text_dec_dotted {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+#text_dec_dashed {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+#text_dec_wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+#text_line_offset_none {
+  text-decoration-line: underline;
+}
+
+#text_line_offset {
+  text-decoration-line: underline;
+  text-underline-offset: 3px;
+}
+
 /*====
 Footer
 =======*/
