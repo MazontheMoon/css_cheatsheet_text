@@ -391,6 +391,21 @@ h3 {
   text-underline-offset: 3px;
 }
 
+#shadow_h {
+  text-shadow: 4px 0px 2px red;
+}
+
+#shadow_v {
+  text-shadow: 0px 4px 2px red;
+}
+
+#shadow_b {
+  text-shadow: 4px 4px 5px red;
+}
+
+#shadow_m {
+  text-shadow: 1px 1px 2px red, 2px 2px 3px black, 3px 3px 4px green;
+}
 /*====
 Footer
 =======*/
