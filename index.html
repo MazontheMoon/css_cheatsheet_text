@@ -39,8 +39,6 @@ Finding your way around
       <p>My series of cheatsheets have led me through the design process of laying out and positioning elements on the page, and how best to select the elements to apply styling.</p>
       <p>Now that I have my building blocks in place and my background set it is time to look at a very simple but possibly the most important type of content on any project....the text.</p>
       <p>All text inside an element is all affected as one single entity (only &lt;span&gt;, &lt;strong&gt;, and similar, or pseudo-elements (::first-letter) can be used to style subsections of text).</p>
-
-      <!--backtotop-->
     </section>
     <!--section 2 - font-stack-->
     <section id="f_stack_box">
@@ -136,6 +134,7 @@ Finding your way around
         </ul>
       </div>
       <!--backtotop-->
+      <div class="backtotop"></div>
     </section>
     <!--section 3 - font style-->
     <section id="f_style_box">
@@ -304,9 +303,29 @@ Finding your way around
       <!--section 3 - font-style - subsection 6 text-drop-shadows-->
       <div id="t_shadow_section" class="subsection_box">
         <h3>Text Drop Shadows</h3>
+        <div class="code_box">
+          <code> p {<br>
+            text-shadow: 4px 4px 5 px red;<br>
+            }</code>
+        </div>
+        <ol>
+          <li id="shadow_h">The horizontal offset of the shadow from the original text</li>
+          <li id="shadow_v">The vertical offset of the shadow from the original text</li>
+          <li id="shadow_b">The blur radius (default = 0)</li>
+          <li>Base colour (default = black)</li>
+        </ol>
+        <div class="code_box">
+          <p id="shadow_m">Multiple shadows can be added...</p>
+          <code> p {<br>
+            text-shadow:<br>
+            4px 4px 5 px red,<br>
+            2px 2px 3px black,<br>
+            3px 3px 4px green;<br>
+            }</code>
+        </div>
       </div>
-
       <!--backtotop-->
+      <div class="backtotop"></div>
     </section>
     <!--section 4 - text layout-->
     <section id="t_layout_box">
@@ -379,12 +398,14 @@ Finding your way around
         <h3>Text Orientation</h3>
       </div>
       <!--backtotop-->
+      <div class="backtotop"></div>
     </section>
     <!--section 5 - font-->
     <section id="font_box">
       <h2>Font</h2>
 
       <!--backtotop-->
+      <div class="backtotop"></div>
     </section>
   </main>
   <footer>
