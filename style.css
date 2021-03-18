@@ -391,6 +391,8 @@ h3 {
   text-underline-offset: 3px;
 }
 
+/*TEXT SHADOW EXAMPLES*/
+
 #shadow_h {
   text-shadow: 4px 0px 2px red;
 }
@@ -406,6 +408,25 @@ h3 {
 #shadow_m {
   text-shadow: 1px 1px 2px red, 2px 2px 3px black, 3px 3px 4px green;
 }
+
+/*TEXT ALIGN EXAMPLES*/
+
+#right {
+  text-align: right;
+}
+
+#left {
+  text-align: left;
+}
+
+#center {
+  text-align: center;
+}
+
+#justify {
+  text-align: justify;
+}
+
 /*====
 Footer
 =======*/
