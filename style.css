@@ -442,6 +442,11 @@ h3 {
   letter-spacing: 4px;
 }
 
+/*WORD SPACING EXAMPLE*/
+#fig_wordspace p {
+  word-spacing: 6px;
+}
+
 /*====
 Footer
 =======*/
