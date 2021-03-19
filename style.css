@@ -427,6 +427,11 @@ h3 {
   text-align: justify;
 }
 
+/*Line Height Examples*/
+#fig_lineheight {
+  line-height: 2;
+}
+
 /*====
 Footer
 =======*/
