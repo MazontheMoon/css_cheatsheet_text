@@ -265,6 +265,11 @@ h3 {
   font-family: "Brush Script MT", cursive;
 }
 
+/*CLAMP EXAMPLE*/
+#fig_clamp p {
+  font-size: clamp(1em, 2.5vw, 1.5em);
+}
+
 /*FONT STYLE EXAMPLES*/
 
 #italic {
@@ -427,9 +432,14 @@ h3 {
   text-align: justify;
 }
 
-/*Line Height Examples*/
-#fig_lineheight {
+/*LINE HEIGHT EXAMPLE*/
+#fig_lineheight p {
   line-height: 2;
+}
+
+/*LETTER SPACING EXAMPLE*/
+#fig_letterspace p {
+  letter-spacing: 4px;
 }
 
 /*====
