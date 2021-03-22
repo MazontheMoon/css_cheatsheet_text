@@ -451,6 +451,20 @@ h3 {
 #small-caps {
   font-variant: small-caps;
 }
+
+/*FONT KERNING EXAMPLE*/
+
+#auto_kern {
+  font-kerning: auto;
+}
+
+#no_kern {
+  font-kerning: none;
+}
+
+#normal_kern {
+  font-kerning: normal;
+}
 /*====
 Footer
 =======*/
