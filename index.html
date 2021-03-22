@@ -446,13 +446,46 @@ Finding your way around
         <div class="code_box">
           <p>Switch between &apos;Normal&apos; and <span id="small-caps">Small Caps</span>.</p>
           <code> p {<br>
-            font-variant: small-caps;<br>
+            font-variant: auto;<br>
             }</code>
         </div>
       </div>
       <!--section 4 - text-layout - subsection 6 font kerning-->
       <div id="f_kern_section" class="subsection_box">
         <h3>Font Kerning</h3>
+        <div class="code_box">
+          <p>This sets the use of the kerning information stored in a font</p>
+          <ul>
+            <li>auto</li>
+            <li>normal</li>
+            <li>none</li </ul>
+            <code> p {<br>
+              font-kerning: auto;<br>
+              }</code>
+        </div>
+        <figure>
+          <figcaption>Seeing is believing....auto Kerning</figcaption>
+          <div>
+            <p id="auto_kern">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
+        <figure>
+          <figcaption>Seeing is believing....no Kerning</figcaption>
+          <div>
+            <p id="no_kern">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
+        <figure>
+          <figcaption>Seeing is believing....normal Kerning</figcaption>
+          <div>
+            <p id="normal_kern"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
       </div>
       <!--section 4 - text-layout - subsection 7 text indent-->
       <div id="t_indent_section" class="subsection_box">
