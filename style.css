@@ -455,16 +455,25 @@ h3 {
 /*FONT KERNING EXAMPLE*/
 
 #auto_kern {
+  font-family: Baskerville, serif;
   font-kerning: auto;
 }
 
 #no_kern {
+  font-family: Baskerville, serif;
   font-kerning: none;
 }
 
 #normal_kern {
+  font-family: Baskerville, serif;
   font-kerning: normal;
 }
+
+/*INDENTATION EXAMPLE*/
+#indent p {
+  text-indent: 4em;
+}
+
 /*====
 Footer
 =======*/
@@ -500,6 +509,10 @@ Responsivesnness
 /*=============
 Accessibility
 ===============*/
+
+@media (prefers-reduced-motion: no-preference) {
+  /* animation styles go here */
+}
 
 /*Reset to user browser preference*/
 
