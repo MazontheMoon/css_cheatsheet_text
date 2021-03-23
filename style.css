@@ -455,16 +455,50 @@ h3 {
 /*FONT KERNING EXAMPLE*/
 
 #auto_kern {
+  font-family: Baskerville, serif;
   font-kerning: auto;
 }
 
 #no_kern {
+  font-family: Baskerville, serif;
   font-kerning: none;
 }
 
 #normal_kern {
+  font-family: Baskerville, serif;
   font-kerning: normal;
 }
+
+/*INDENTATION EXAMPLE*/
+#indent p {
+  text-indent: 4em;
+}
+
+/*WHITE SPACE EXAMPLES*/
+#normal_w_space p {
+  white-space: normal;
+}
+
+#no_wrap_w_space p {
+  white-space: no-wrap;
+}
+
+#pre_w_space p {
+  white-space: pre;
+}
+
+#pre_wrap_w_space p {
+  white-space: pre-wrap;
+}
+
+#pre_line_w_space p {
+  white-space: pre-line;
+}
+
+#pre_line_w_space p {
+  white-space: break-space;
+}
+
 /*====
 Footer
 =======*/
@@ -500,6 +534,10 @@ Responsivesnness
 /*=============
 Accessibility
 ===============*/
+
+@media (prefers-reduced-motion: no-preference) {
+  /* animation styles go here */
+}
 
 /*Reset to user browser preference*/
 

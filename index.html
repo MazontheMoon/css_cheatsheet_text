@@ -446,7 +446,7 @@ Finding your way around
         <div class="code_box">
           <p>Switch between &apos;Normal&apos; and <span id="small-caps">Small Caps</span>.</p>
           <code> p {<br>
-            font-variant: auto;<br>
+            font-variant: small-caps;<br>
             }</code>
         </div>
       </div>
@@ -458,42 +458,114 @@ Finding your way around
           <ul>
             <li>auto</li>
             <li>normal</li>
-            <li>none</li </ul>
-            <code> p {<br>
-              font-kerning: auto;<br>
-              }</code>
+            <li>none</li>
+          </ul>
+          <code> p {<br>
+            font-kerning: auto;<br>
+            }</code>
         </div>
         <figure>
           <figcaption>Seeing is believing....auto Kerning</figcaption>
           <div>
-            <p id="auto_kern">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
-            </p>
+            <p id="auto_kern">WATERFALL</p>
           </div>
         </figure>
         <figure>
           <figcaption>Seeing is believing....no Kerning</figcaption>
           <div>
-            <p id="no_kern">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
-            </p>
+            <p id="no_kern">WATERFALL</p>
           </div>
         </figure>
         <figure>
           <figcaption>Seeing is believing....normal Kerning</figcaption>
           <div>
-            <p id="normal_kern"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
-            </p>
+            <p id="normal_kern"> WATERFALL</p>
           </div>
         </figure>
       </div>
       <!--section 4 - text-layout - subsection 7 text indent-->
       <div id="t_indent_section" class="subsection_box">
         <h3>Text Indent</h3>
+        <div class="code_box">
+          <p>Sets how much horizontal space should be left before the beginning of the first line with <span class="code-word">text-indent</span> using most size and length values. </p>
+          <code> p {<br>
+            text-indent: 4em;<br>
+            }</code>
+        </div>
+        <figure>
+          <figcaption>Seeing is believing....indentation at work</figcaption>
+          <div id="indent">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
       </div>
       <!--section 4 - text-layout - subsection 8 white space-->
       <div id="whitespace_section" class="subsection_box">
         <h3>White Space</h3>
+        <div class="code_box">
+          <p>As it sounds this is used to set how white space is handled</p>
+          <ul>
+            <li>normal</li>
+            <li>nowrap</li>
+            <li>pre</li>
+            <li>pre-wrap</li>
+            <li>pre-line</li>
+            <li>break-spaces</li>
+          </ul>
+          <code> p {<br>
+            white-space: pre;<br>
+            }</code>
+        </div>
+        <figure>
+          <figcaption>Seeing is believing....normal white space</figcaption>
+          <div id="normal_w_space">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
+        <figure>
+          <figcaption>Seeing is believing....no wrap white space</figcaption>
+          <div id="no_wrap_w_space">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
+        <figure>
+          <figcaption>Seeing is believing....pre white space</figcaption>
+          <div id="pre_w_space">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
+        <figure>
+          <figcaption>Seeing is believing....pre wrap white space</figcaption>
+          <div id="pre_wrap_w_space">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
+        <figure>
+          <figcaption>Seeing is believing....pre line white space</figcaption>
+          <div id="pre_line_w_space">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
+        <figure>
+          <figcaption>Seeing is believing....break space white space</figcaption>
+          <div id="break_space_w_space">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nihil dolorum magni veritatis sapiente possimus culpa quod pariatur dicta porro iste eius non aspernatur, repellat explicabo! Numquam a omnis sequi.
+            </p>
+          </div>
+        </figure>
       </div>
       <!--section 4 - text-layout - subsection 9 text overflow-->
       <div id="overflow_section" class="subsection_box">
