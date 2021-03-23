@@ -474,6 +474,31 @@ h3 {
   text-indent: 4em;
 }
 
+/*WHITE SPACE EXAMPLES*/
+#normal_w_space p {
+  white-space: normal;
+}
+
+#no_wrap_w_space p {
+  white-space: no-wrap;
+}
+
+#pre_w_space p {
+  white-space: pre;
+}
+
+#pre_wrap_w_space p {
+  white-space: pre-wrap;
+}
+
+#pre_line_w_space p {
+  white-space: pre-line;
+}
+
+#pre_line_w_space p {
+  white-space: break-space;
+}
+
 /*====
 Footer
 =======*/
