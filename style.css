@@ -499,6 +499,37 @@ h3 {
   white-space: break-space;
 }
 
+/*TEXT OVERFLOW EXAMPLES*/
+#overflow_clip p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#overflow_ellipsis p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#overflow_string p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: "---";
+}
+
+/*WORD BREAK EXAMPLES*/
+#word_break p {
+  word-break: normal;
+}
+
+#word_break_keep p {
+  word-break: keep-all;
+}
+
+#word_break_break p {
+  word-break: break-all;
+}
 /*====
 Footer
 =======*/
