@@ -555,6 +555,27 @@ h3 {
   writing-mode: vertical-lr;
 }
 
+/*TEXT ORIENTATION EXAMPLES*/
+
+#text_o_mixed p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+#text_o_upright p {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+#text_o_sideways_r p {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+}
+
+#text_o_mixed_sideways p {
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+}
 /*====
 Footer
 =======*/
