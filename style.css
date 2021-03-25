@@ -540,6 +540,21 @@ h3 {
 #word_wrap_break p {
   word-wrap: break-word;
 }
+
+/*WRITING MODE EXAMPLES*/
+
+#w_mode_h p {
+  writing-mode: horizontal-tb;
+}
+
+#w_mode_v_rl p {
+  writing-mode: vertical-rl;
+}
+
+#w_mode_v_lr p {
+  writing-mode: vertical-lr;
+}
+
 /*====
 Footer
 =======*/
