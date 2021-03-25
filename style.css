@@ -530,6 +530,16 @@ h3 {
 #word_break_break p {
   word-break: break-all;
 }
+
+/*WORD WRAP EXAMPLES*/
+
+#word_wrap p {
+  word-wrap: normal;
+}
+
+#word_wrap_break p {
+  word-wrap: break-word;
+}
 /*====
 Footer
 =======*/
