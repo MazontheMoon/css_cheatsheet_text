@@ -4,6 +4,9 @@ Page variables
 
 :root {
   /*color scheme*/
+  --colour_dark: hsl(210, 10%, 23%);
+  --colour_light: hsl(210, 17%, 98%);
+  --colour_highlight: hsl(210, 77%, 36%);
 
   /*font and text*/
 }
@@ -44,6 +47,20 @@ figcaption {
 /*================
 Page Layout - Grid
 =================*/
+body {
+  background-color: var(--colour-dark, #343a40);
+  background-image: linear-gradient(
+    to bottom,
+    #212529,
+    #343a40,
+    #495057,
+    #6c757d,
+    #adb5bd,
+    #ced4da,
+    #dee2e6,
+    #e9ecef
+  );
+}
 
 /*=====
 Header 
@@ -58,26 +75,6 @@ Main and Section containers
 ===========================*/
 
 /*temporary boxes*/
-
-header,
-main,
-footer {
-  border: solid 2px black;
-}
-
-nav,
-section {
-  border: solid 2px red;
-}
-
-.subsection_box {
-  border: solid 2px blue;
-}
-h1,
-h2,
-h3 {
-  border: solid 2px green;
-}
 
 /*FONT STACK EXAMPLES*/
 
@@ -579,7 +576,9 @@ h3 {
 /*====
 Footer
 =======*/
-
+footer {
+  position: relative;
+}
 /*================
 The little touches
 =================*/
@@ -611,6 +610,22 @@ Responsivesnness
 /*=============
 Accessibility
 ===============*/
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*set color scheme*/
+    --colour_dark: hsl(210, 10%, 23%);
+    --colour_light: hsl(210, 17%, 98%);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /*light becomes dark but varibale name stays the same*/
+    --colour_dark: hsl(210, 17%, 98%);
+    --colour_light: hsl(210, 10%, 23%);
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   /* animation styles go here */
