@@ -17,6 +17,46 @@ My CSS Cheat Sheet for learning CSS - Text
 <!--=====================
 Finding your way around 
 =========================-->
+<!--================================================
+My CSS Cheat Sheet for learning CSS - Text and Fonts
+==================================================-->
+<!--=====================
+Finding your way around 
+=========================
+1. Header - Page Title
+2. Header - Nav bar (5 sections)
+3. Section 1 - Intro
+4. Section 2 - Font Stack
+4a. Subsection 1 - Sans-Serif
+4b. Subsection 2 - Serif
+4c. Subsection 3- Monospace
+4d. Subsection 4 - Fantasy
+4e. Subsection 5 - Cursive Script
+5. Section 3 - Font Styles
+5a. Subsection 1 - Font Style
+5b. Subsection 2 - Font Size
+5c. Subsection 3 - Font Weight
+5d. Subsection 4 - Text Transform
+54. Subsection 5 - Text Decoration
+5f. Subsection 6 -  Text Drop Shadows
+6. Section 4 - Text Layout
+6a. Subsection 1 - Alignment
+6b. Subsection 2 - Line Height
+6c. Subsection 3 - Letter Spacin
+6d. Subsection 4 - Word Spacing
+6e. Subsection 5 - Font Variant
+6f. Subsection 6 - Font Kerning
+6g. Subsection 7 - Text Indent
+6h. Subsection 8 - White Space
+6i. Subsection 9 - Text Overflow
+6j. Subsection 10 - Word Break
+6k. Subsection 11 - Word Wrap
+6l. Subsection 12 - Writing Mode
+6m. Subsection 13 - Text Orientation
+7. Section 5 - Font
+8. Footer
+=========================-->
+
 <body>
   <header>
     <!--page header title-->
@@ -969,14 +1009,31 @@ Finding your way around
     <!--section 5 - font-->
     <section id="font_box">
       <h2>Font</h2>
-
+      <div class="code_box">
+        <p>Multiple properties can also be set through the shorthand property font.</p>
+        <p>In this order:<span class="code-word">font:font-style, font-variant, font-weight, font-stretch, font-size/line-height, font-family;</span></p>
+        <code>p {<br>
+          font:italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;<br>
+          }
+        </code>
+        <p>Only font-size and font-family are required when using font shorthand</p>
+      </div>
       <!--backtotop-->
       <div class="backtotop"></div>
     </section>
   </main>
   <footer>
     <!--all about me-->
-    <!--backtotop-->
+    <div id="all-about-me">
+      <p>Designed by <abbr title="Mary Ronan">MazOnTheMoon</abbr> 2021</p>
+      <p><a href="https://www.linkedin.com/in/mary-ronan/" target="_blank"> <span class="fab fa-linkedin"> </span></a>
+        <a href="https://github.com/MazontheMoon" target="_blank"> <span class="fab fa-github-square"> </span></a>
+        <a href="https://codepen.io/mazonthemoon/#" target="_blank"> <span class="fab fa-codepen"> </span></a>
+        <a href="https://mazcodesonthemoon.wordpress.com/2020/10/12/teaching-myself-to-code-css/" target="_blank"> <span class="fab fa-wordpress"> </span></a>
+      </p>
+      <!--Back to top shortcut-->
+      <div class="backtotop"><a class="toplink" href="#top"> <i class="far fa-arrow-alt-circle-up"></i></a></div>
+    </div>
   </footer>
 </body>
 </html>
