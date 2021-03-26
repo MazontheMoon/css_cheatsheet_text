@@ -19,6 +19,7 @@
 ## Versioning
 
 Version 1.1 - Initial content
+Version 1.2 - Styling
 
 ## Authors
 * **Mary Ronan** - [MazOnTheMoon](https://github.com/MazontheMoon)
