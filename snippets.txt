@@ -15,5 +15,22 @@
 
 Colour palette:
 
+--colour_dark
+--colour_light
+--colour_highlight
+
+dark: 
+210, 10%, 23%
+#343a40
+
+light:
+210, 17%, 98%
+#F8F9FA
+
+highlight:
+210, 77%, 36%
+#155CA2
+
+
 colour var = hsla/rgb, fallback = hex
 
