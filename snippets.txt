@@ -19,6 +19,10 @@ Colour palette:
 --colour_light
 --colour_highlight
 
+var(--colour-dark, #343a40)
+var(--colour_light, #F8F9FA)
+var(--colour_highlight ,#155CA2)
+
 dark: 
 210, 10%, 23%
 #343a40

@@ -48,6 +48,11 @@ figcaption {
 Page Layout - Grid
 =================*/
 body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
   background-color: var(--colour-dark, #343a40);
   background-image: linear-gradient(
     to bottom,
@@ -65,16 +70,87 @@ body {
 /*=====
 Header 
 =======*/
+header {
+  grid-area: header;
+  position: relative;
+  display: inline-grid;
+  grid-template-areas:
+    "heading"
+    "nav";
+  margin: 1em;
+  margin-bottom: 0;
+}
 
+header h1 {
+  grid-area: heading;
+  background-color: var(--colour_light, #f8f9fa);
+  border: 0.5em solid var(--colour_highlight, #155ca2);
+  border-radius: 1.5em;
+  box-shadow: 2px 2px 3px black;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 1.5;
+}
 /*=======
 Nav Menu
 =========*/
+nav {
+  grid-area: nav;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0.5em;
+  border: 0.5em solid var(--colour_light, #f8f9fa);
+  border-radius: 3em;
+  background-color: var(--colour_highlight, #155ca2);
+}
+
+nav ul li {
+  padding: 0.5em;
+  background-color: var(--colour_highlight, #155ca2);
+  border: 0.3em solid var(--colour_light, #f8f9fa);
+  border-radius: 1.5em;
+}
+
+nav ul li a {
+  margin: 0.5em;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+}
 
 /*==========================
 Main and Section containers
 ===========================*/
+main {
+  grid-area: main;
+  margin: 0 1em;
+  padding: 0.5em;
+}
 
-/*temporary boxes*/
+main section {
+  margin: 1em;
+  background-color: var(--colour_light, #f8f9fa);
+  border: 1em solid var(--colour_highlight, #155ca2);
+  border-radius: 3em;
+  padding: 1em;
+}
+
+section .subsection_box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.subsection_box div {
+  width: 400px;
+}
 
 /*FONT STACK EXAMPLES*/
 
@@ -482,6 +558,7 @@ Main and Section containers
 
 #pre_w_space p {
   white-space: pre;
+  overflow-y: auto;
 }
 
 #pre_wrap_w_space p {
@@ -577,7 +654,20 @@ Main and Section containers
 Footer
 =======*/
 footer {
+  grid-area: footer;
   position: relative;
+  background-color: var(--colour-dark, #343a40);
+  background-image: linear-gradient(
+    to bottom,
+    #e9ecef,
+    #dee2e6,
+    #ced4da,
+    #adb5bd,
+    #6c757d,
+    #495057,
+    #343a40,
+    #212529
+  );
 }
 /*================
 The little touches
