@@ -2,7 +2,7 @@
 Import Fonts
 ==============*/
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Kaushan+Script&display=swap");
 
 /*============
 Page variables
@@ -17,6 +17,7 @@ Page variables
 
   /*font*/
   --font: "Roboto", Verdana, sans-serif;
+  --header_font: "Kaushan Script", Georgia, serif;
 }
 
 /*======================================
@@ -81,16 +82,14 @@ Header
 header {
   grid-area: header;
   position: relative;
-  display: inline-grid;
-  grid-template-areas:
-    "heading"
-    "nav";
+  display: flex;
+  flex-direction: column;
   margin: 1em;
   margin-bottom: 0;
+  padding: 0;
 }
 
 header h1 {
-  grid-area: heading;
   background-color: var(--colour_light, #f8f9fa);
   border: 0.3em solid var(--colour_highlight, #155ca2);
   border-radius: 1.5em;
@@ -98,9 +97,9 @@ header h1 {
   margin: 0;
   padding: 0.3em;
   text-align: center;
-  font-family: var(--font);
+  font-family: var(--header_font);
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: clamp(1.5em, 2.5em, 3em);
   line-height: 1.25;
   text-shadow: 1px 1px 2px black;
 }
@@ -108,7 +107,6 @@ header h1 {
 Nav Menu
 =========*/
 nav {
-  grid-area: nav;
   padding: 0.5em;
   margin-top: 1em;
 }
@@ -205,18 +203,18 @@ section .subsection_box {
 }
 
 .subsection_box div {
-  width: 200px;
+  width: 75vw;
 }
 
 /*FONT STACK EXAMPLES*/
 
-#sanserif_section ul {
+#f_stack_box div ul {
   list-style: none;
   display: flex;
   flex-flow: row wrap;
 }
 
-#sanserif_section ul li {
+#f_stack_box div ul li {
   border: 2px solid black;
   width: 100px;
   height: 100px;
@@ -413,6 +411,10 @@ section .subsection_box {
 }
 
 /*CLAMP EXAMPLE*/
+
+#fig_clamp {
+  max-width: 400px;
+}
 #fig_clamp p {
   font-size: clamp(1em, 2.5vw, 1.5em);
 }
@@ -648,6 +650,10 @@ section .subsection_box {
 }
 
 /*TEXT OVERFLOW EXAMPLES*/
+#overflow_section div {
+  width: 250px;
+}
+
 #overflow_clip p {
   white-space: nowrap;
   overflow: hidden;
