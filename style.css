@@ -59,12 +59,11 @@ Page Heading
 
 header {
   background-color: var(--colour-dark, #343a40);
-  border-bottom: solid 2px black;
 }
 
 header h1 {
   background-color: var(--colour_highlight, #155ca2);
-  padding: 1em;
+  padding: 0.5em;
   border-bottom: solid 2px black;
   border-bottom-right-radius: 5em;
   border-bottom-left-radius: 5em;
@@ -96,29 +95,74 @@ nav ul li {
   justify-content: center;
   align-items: center;
   background-color: var(--colour_light, #f8f9fa);
-  border: solid 2px black;
+  border: solid 3px black;
   margin: 0.5em;
   padding: 0.5em;
   text-align: center;
+  color: black;
 }
 
 nav ul li a {
-  color: black;
+  color: inherit;
   text-decoration: none;
   font-size: 1.25em;
+  font-weight: bolder;
 }
 
+nav ul li:hover {
+  border: 3px solid var(--colour_highlight, #155ca2);
+  color: var(--colour_highlight, #155ca2);
+}
 /*================
 Section Styles
 =================*/
 
 main {
   background-color: var(--colour_highlight);
+  border: solid 2px black;
 }
 
 section > h2 {
   background-color: var(--colour_light, #f8f9fa);
   padding: 0.5em;
+}
+
+section div {
+  padding: 0.5em;
+}
+
+section > ul {
+  margin: 0.5em;
+  padding: none;
+  list-style: none;
+}
+
+section > ul li {
+  margin: 0.5em;
+  padding: 0.5em;
+  color: var(--colour_light, #f8f9fa);
+  border-left: 2px solid var(--colour_light, #f8f9fa);
+}
+
+section > ul li a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3em;
+}
+
+section > ul li:hover {
+  color: black;
+  border-left: 2px solid black;
+}
+
+section code {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.5em;
+  background-color: var(--colour-dark, #343a40);
+  border: 3px solid black;
+  color: var(--colour_light, #f8f9fa);
 }
 
 /*FONT STACK EXAMPLES*/
@@ -630,6 +674,14 @@ section > h2 {
 /*====
 Footer
 =======*/
+footer {
+  background-color: var(--colour-dark, #343a40);
+  color: var(--colour_light, #f8f9fa);
+}
+
+footer #all-about-me {
+  text-align: center;
+}
 
 /*================
 The little touches
