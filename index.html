@@ -1,6 +1,6 @@
-<!--=======================================
-My CSS Cheat Sheet for learning CSS - Text
-==========================================-->
+<!--================================================
+My CSS Cheat Sheet for learning CSS - Text and Fonts
+==================================================-->
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -12,14 +12,8 @@ My CSS Cheat Sheet for learning CSS - Text
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" >
-    </head>
+  </head>
     
-<!--=====================
-Finding your way around 
-=========================-->
-<!--================================================
-My CSS Cheat Sheet for learning CSS - Text and Fonts
-==================================================-->
 <!--=====================
 Finding your way around 
 =========================
@@ -56,7 +50,6 @@ Finding your way around
 7. Section 5 - Font
 8. Footer
 =========================-->
-
 <body>
   <header>
     <!--page header title-->
@@ -65,9 +58,9 @@ Finding your way around
     <nav>
       <ul>
         <li><a href="#intro_box">Intro</a></li>
-        <li><a href="#f_stack_box">Font Stack</a></li>
-        <li><a href="#f_style_box">Font Styles</a></li>
-        <li><a href="#t_layout_box">Text Layout</a></li>
+        <li><a href="#f_stack_box">Stack</a></li>
+        <li><a href="#f_style_box">Styles</a></li>
+        <li><a href="#t_layout_box">Layout</a></li>
         <li><a href="#font_box">Font</a></li>
       </ul>
     </nav>
@@ -76,9 +69,11 @@ Finding your way around
     <!--section 1 - intro-->
     <section id="intro_box">
       <h2>Why?</h2>
-      <p>My series of cheatsheets have led me through the design process of laying out and positioning elements on the page, and how best to select the elements to apply styling.</p>
-      <p>Now that I have my building blocks in place and my background set it is time to look at a very simple but possibly the most important type of content on any project....the text.</p>
-      <p>All text inside an element is all affected as one single entity (only &lt;span&gt;, &lt;strong&gt;, and similar, or pseudo-elements (::first-letter) can be used to style subsections of text).</p>
+      <div>
+        <p>My series of cheatsheets have led me through the design process of laying out and positioning elements on the page, and how best to select the elements to apply styling.</p>
+        <p>Now that I have my building blocks in place and my background set it is time to look at a very simple but possibly the most important type of content on any project....the text.</p>
+        <p>All text inside an element is all affected as one single entity (only &lt;span&gt;, &lt;strong&gt;, and similar, or pseudo-elements (::first-letter) can be used to style subsections of text).</p>
+      </div>
     </section>
     <!--section 2 - font-stack-->
     <section id="f_stack_box">
@@ -88,7 +83,7 @@ Finding your way around
         <li><a href="#serif_section">Serif</a></li>
         <li><a href="#mono_section">Monospace</a></li>
         <li><a href="#fantasy_section">Fantasy</a></li>
-        <li><a href="#cursive_section">Cursive script</a></li>
+        <li><a href="#cursive_section">Cursive Script</a></li>
       </ul>
       <div class="code_box">
         <p>Web safe fonts (pre-installed in most O.S but some are Windows only or MAC only) used mainly for fallback in font stacks if the imported font or primary font is not supported.</p>
@@ -100,7 +95,7 @@ Finding your way around
       <!--section 2 - font-stack - subsection 1 san-serif-->
       <div id="sanserif_section" class="subsection_box">
         <h3>San-Serif</h3>
-        <ul>
+        <ul class="example_boxes">
           <li id="arial">Arial</li>
           <li id="arial_b">Arial Black</li>
           <li id="arial_n">Arial Narrow</li>
@@ -126,7 +121,7 @@ Finding your way around
       <!--section 2 - font-stack - subsection 2 serif-->
       <div id="serif_section" class="subsection_box">
         <h3>Serif</h3>
-        <ul>
+        <ul class="example_boxes">
           <li id="caslon">Big Caslon</li>
           <li id="bodoni">Bodoni MT</li>
           <li id="book_antiqua">Book Antiqua</li>
@@ -149,7 +144,7 @@ Finding your way around
       <!--section 2 - font-stack - subsection 3 monospace-->
       <div id="mono_section" class="subsection_box">
         <h3>Monospace</h3>
-        <ul>
+        <ul class="example_boxes">
           <li id="consolas">Consolas</li>
           <li id="courier">Courier New</li>
           <li id="lucida_c">Lucida Console</li>
@@ -161,7 +156,7 @@ Finding your way around
       <!--section 2 - font-stack - subsection 4 fantasy-->
       <div id="fantasy_section" class="subsection_box">
         <h3>Fantasy</h3>
-        <ul>
+        <ul class="example_boxes">
           <li id="copperplate">Copperplate</li>
           <li id="papyrus">Papyrus</li>
         </ul>
@@ -169,7 +164,7 @@ Finding your way around
       <!--section 2 - font-stack - subsection 5 cursive-->
       <div id="cursive_section" class="subsection_box">
         <h3>Cursive Script</h3>
-        <ul>
+        <ul class="example_boxes">
           <li id="brush">Brush Script MT</li>
         </ul>
       </div>
@@ -197,7 +192,7 @@ Finding your way around
             }
           </code>
         </div>
-        <ul>
+        <ul class="example_boxes">
           <li>
             <h1>H1</h1>
           </li>
@@ -243,7 +238,7 @@ Finding your way around
             font-style: italic;<br>
             }</code>
         </div>
-        <ul>
+        <ul class="example_boxes">
           <li>no style</li>
           <li id="italic">italic</li>
           <li id="oblique">oblique</li>
@@ -257,7 +252,7 @@ Finding your way around
             font-weight: bold;<br>
             }</code>
         </div>
-        <ul>
+        <ul class="example_boxes">
           <li>no style</li>
           <li id="bold">bold</li>
           <li id="bolder">bolder</li>
@@ -281,7 +276,7 @@ Finding your way around
             text-transform: uppercase;<br>
             }</code>
         </div>
-        <ul>
+        <ul class="example_boxes">
           <li>no style</li>
           <li id="upper">uppercase</li>
           <li id="lower">lowercase</li>
@@ -309,7 +304,7 @@ Finding your way around
         <!--section 3 - font-style - subsection 5 text-decoration- mini-subsection 1 text-decoration-line-->
         <div id="text_dec_line_section" class="subsection_box">
           <h3>Text Decoration Line</h3>
-          <ul>
+          <ul class="example_boxes">
             <li>no style</li>
             <li id="text_dec_underline">underline</li>
             <li id="text_dec_overline">overline</li>
@@ -319,7 +314,7 @@ Finding your way around
         <!--section 3 - font-style - subsection 5 text-decoration- mini-subsection 2 text-decoration-style-->
         <div id="text_dec_style_section" class="subsection_box">
           <h3>Text Decoration Style</h3>
-          <ul>
+          <ul class="example_boxes">
             <li>no style</li>
             <li id="text_dec_solid">solid</li>
             <li id="text_dec_double">double</li>
@@ -331,7 +326,7 @@ Finding your way around
         <!--section 3 - font-style - subsection 5 text-decoration- mini-subsection 3 text-underline-offset-->
         <div id="text_dec_offset_section" class="subsection_box">
           <h3>Text Underline Offset</h3>
-          <ul>
+          <ul class="example_boxes">
             <li id="text_line_offset_none">no style</li>
             <li id="text_line_offset">numerical value (example 3px)</li>
           </ul>
@@ -395,7 +390,7 @@ Finding your way around
             text-align: center;<br>
             }</code>
         </div>
-        <ul>
+        <ul class="example_boxes">
           <li id="right">right</li>
           <li id="left">left</li>
           <li id="center">center</li>
