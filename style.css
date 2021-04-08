@@ -215,6 +215,21 @@ figure figcaption {
 figure div {
   margin: 1em;
 }
+
+.example_boxes {
+  border: 2px solid black;
+  margin: 0.25em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.example_boxes li {
+  margin: 0.25;
+  padding: 0.5;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
 /*FONT STACK EXAMPLES*/
 #f_stack_box div ul {
   display: flex;
@@ -417,21 +432,49 @@ figure div {
   font-family: "Brush Script MT", cursive;
 }
 
-/*CLAMP EXAMPLE*/
+/*FONT SIZE & CLAMP EXAMPLE*/
 
-#f_stack_box div ul li h1,
-#f_stack_box div ul li h2,
-#f_stack_box div ul li h3,
-#f_stack_box div ul li h4,
-#f_stack_box div ul li h5,
-#f_stack_box div ul li h6,
-#f_stack_box div ul li p {
-  font-size: unset;
+.size_example_boxes h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  line-height: 1.5;
 }
 
-#fig_clamp {
-  max-width: 400px;
+.size_example_boxes h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+  line-height: 1.5;
 }
+
+.size_example_boxes h3 {
+  font-size: 1.17em;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.size_example_boxes h4 {
+  font-size: 1em;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.size_example_boxes h5 {
+  font-size: 0.83em;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.size_example_boxes h5 {
+  font-size: 0.67em;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.size_example_boxes p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
 #fig_clamp p {
   font-size: clamp(1em, 2.5vw, 1.5em);
 }
