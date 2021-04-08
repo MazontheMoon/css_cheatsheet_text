@@ -122,12 +122,12 @@ main {
   border: solid 2px black;
 }
 
-section > h2 {
-  background-color: var(--colour_light, #f8f9fa);
-  padding: 0.5em;
+section {
+  position: relative;
 }
 
-section div {
+section > h2 {
+  background-color: var(--colour_light, #f8f9fa);
   padding: 0.5em;
 }
 
@@ -156,16 +156,59 @@ section > ul li:hover {
   border-left: 2px solid black;
 }
 
-section code {
-  display: inline-block;
-  margin: 1em;
+.text_box {
+  margin: 0.5em;
   padding: 0.5em;
+}
+
+.text_box p {
+  line-height: 1.5;
+}
+
+section .subsection_box {
+  border: 3px solid black;
+  background-color: var(--colour_light, #f8f9fa);
+  margin: 1em;
+}
+
+.subsection_box ul {
+  list-style-type: none;
+  margin: 0.5em;
+  padding: 0;
+}
+
+.subsection_box > h3 {
+  color: var(--colour_light, #f8f9fa);
+  background-color: black;
+}
+section .code_box {
+  margin: 0.5em;
+}
+
+.code_box p {
+  padding: 0.5em;
+}
+.code_box code {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 1em;
   background-color: var(--colour-dark, #343a40);
   border: 3px solid black;
   color: var(--colour_light, #f8f9fa);
 }
 
 /*FONT STACK EXAMPLES*/
+#f_stack_box div ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#f_stack_box div ul li {
+  font-size: 1.75em;
+  border: 2px dotted black;
+  margin: 0.3em;
+  padding: 0.5em;
+}
 
 #arial {
   font-family: sans-serif;
