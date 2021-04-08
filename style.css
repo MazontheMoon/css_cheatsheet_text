@@ -129,6 +129,7 @@ section {
 section > h2 {
   background-color: var(--colour_light, #f8f9fa);
   padding: 0.5em;
+  font-size: 1.5em;
 }
 
 section > ul {
@@ -180,7 +181,10 @@ section .subsection_box {
 .subsection_box > h3 {
   color: var(--colour_light, #f8f9fa);
   background-color: black;
+  padding: 0.5em;
+  font-size: 1.25em;
 }
+
 section .code_box {
   margin: 0.5em;
 }
@@ -197,6 +201,20 @@ section .code_box {
   color: var(--colour_light, #f8f9fa);
 }
 
+section figure {
+  margin: 1em;
+  border: 3px solid var(--colour_highlight, #155ca2);
+}
+
+figure figcaption {
+  background-color: var(--colour_highlight, #155ca2);
+  color: white;
+  padding: 0.5em;
+}
+
+figure div {
+  margin: 1em;
+}
 /*FONT STACK EXAMPLES*/
 #f_stack_box div ul {
   display: flex;
@@ -204,10 +222,15 @@ section .code_box {
 }
 
 #f_stack_box div ul li {
-  font-size: 1.75em;
-  border: 2px dotted black;
+  font-size: 1.25em;
   margin: 0.3em;
   padding: 0.5em;
+  border: 1px dashed black;
+}
+
+#f_stack_box div ul li:hover {
+  color: white;
+  background-color: black;
 }
 
 #arial {
@@ -395,6 +418,16 @@ section .code_box {
 }
 
 /*CLAMP EXAMPLE*/
+
+#f_stack_box div ul li h1,
+#f_stack_box div ul li h2,
+#f_stack_box div ul li h3,
+#f_stack_box div ul li h4,
+#f_stack_box div ul li h5,
+#f_stack_box div ul li h6,
+#f_stack_box div ul li p {
+  font-size: unset;
+}
 
 #fig_clamp {
   max-width: 400px;
