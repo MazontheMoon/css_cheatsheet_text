@@ -22,7 +22,7 @@ Colour palette:
 var(--colour-dark, #343a40)
 var(--colour_light, #F8F9FA)
 var(--colour_highlight ,#155CA2)
-var(--color_hightlight_fade)
+var(--color_highlight_fade)
 
 
 --colour_highlight_fade: hsla(210, 77%, 36%, 0.5);

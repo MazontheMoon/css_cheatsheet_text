@@ -174,8 +174,14 @@ section .subsection_box {
 
 .subsection_box ul {
   list-style-type: none;
-  margin: 0.5em;
-  padding: 0;
+}
+
+.subsection_box ol {
+  margin-left: 2em;
+}
+
+.subsection_box ol li {
+  padding: 0.5em;
 }
 
 .subsection_box > h3 {
@@ -185,6 +191,23 @@ section .subsection_box {
   font-size: 1.25em;
 }
 
+.subsection_box p {
+  padding: 0.3em;
+}
+
+.subsection_box .sub_menu {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.subsection_box .sub_menu li {
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.subsection_box .sub_menu li:hover {
+  color: var(--colour_highlight, #155ca2);
+}
 section .code_box {
   margin: 0.5em;
 }
@@ -217,17 +240,16 @@ figure div {
 }
 
 .example_boxes {
-  border: 2px solid black;
-  margin: 0.25em;
+  background-color: hsla(210, 77%, 36%, 0.5);
   padding: 0.5em;
-  text-align: center;
 }
 
 .example_boxes li {
-  margin: 0.25;
-  padding: 0.5;
+  margin: 0.5em;
+  padding: 0.5em;
   line-height: 1.5;
   font-size: 1.2em;
+  border-bottom: dotted 1px black;
 }
 
 /*FONT STACK EXAMPLES*/
@@ -608,15 +630,15 @@ figure div {
 /*TEXT SHADOW EXAMPLES*/
 
 #shadow_h {
-  text-shadow: 4px 0px 2px red;
+  text-shadow: 4px 0px 2px var(--colour_highlight, #155ca2);
 }
 
 #shadow_v {
-  text-shadow: 0px 4px 2px red;
+  text-shadow: 0px 4px 2px var(--colour_highlight, #155ca2);
 }
 
 #shadow_b {
-  text-shadow: 4px 4px 5px red;
+  text-shadow: 4px 4px 5px var(--colour_highlight, #155ca2);
 }
 
 #shadow_m {
