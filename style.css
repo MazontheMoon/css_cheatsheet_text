@@ -849,7 +849,7 @@ p {
 The little touches
 =================*/
 
-/*Back to top - only for small mobile screen views*/
+/*Back to top*/
 
 .backtotop {
   position: absolute;
@@ -883,7 +883,41 @@ Ye Olde Time Print View
 ========================*/
 
 @media print {
+  body * {
+    background-color: none;
+    color: #000;
+    box-shadow: none;
+  }
+
+  /*font size - change px to pt*/
+  h1 {
+    font-size: 18pt;
+    text-shadow: none;
+  }
+
+  h2 {
+    font-size: 16pt;
+    text-shadow: none;
+  }
+
+  h3 {
+    font-size: 14pt;
+    text-shadow: none;
+  }
+
+  p,
+  li,
+  figcaption,
+  code,
+  abbr {
+    font-size: 12pt;
+  }
+
   /*remove unneeded elements*/
+  nav,
+  .backtotop {
+    display: none;
+  }
 
   /*display footer links*/
 
