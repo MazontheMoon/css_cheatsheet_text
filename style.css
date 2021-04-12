@@ -63,12 +63,10 @@ header {
 
 header h1 {
   background-color: var(--colour_highlight, #155ca2);
-  padding: 0.5em;
+  padding: 0.3em 0.5em;
   border-bottom: solid 2px black;
-  border-bottom-right-radius: 5em;
-  border-bottom-left-radius: 5em;
   color: var(--colour_light, #f8f9fa);
-  text-shadow: 2px 2px 1px black;a
+  text-shadow: 2px 2px 1px black;
   text-align: center;
   font-size: 2.5em;
   line-height: 1.5;
@@ -822,9 +820,31 @@ footer {
 }
 
 footer #all-about-me {
+  padding: 0.3em;
   text-align: center;
 }
+p {
+  line-height: 2;
+}
+#all-about-me p {
+  line-height: 2;
+}
 
+#all-about-me a:link {
+  padding: 0.2em 0.5em;
+  font-size: 1.2em;
+  color: var(--light-colour, #9a8c98);
+}
+
+#all-about-me a:visited {
+  color: black;
+}
+
+#all-about-me a:focus,
+#all-about-me a:hover,
+#all-about-me a:active {
+  color: var(--lightest-colour, #f2e9e4);
+}
 /*================
 The little touches
 =================*/
@@ -847,38 +867,9 @@ The little touches
   color: black;
 }
 
-/*================
-Responsivesnness
-==================*/
-/*
-@media only screen and (min-width: 1024px) {
-}
-*/
-
 /*=============
 Accessibility
 ===============*/
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    /*set color scheme*/
-    --colour_dark: hsl(210, 10%, 23%);
-    --colour_light: hsl(210, 17%, 98%);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    /*light becomes dark but variable name stays the same*/
-    --colour_dark: hsl(210, 17%, 98%);
-    --colour_light: hsl(210, 10%, 23%);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  /* animation styles go here */
-}
-
 /*Reset to user browser preference*/
 
 @media (prefers-reduced-motion: reduce) {
