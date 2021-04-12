@@ -68,7 +68,7 @@ header h1 {
   border-bottom-right-radius: 5em;
   border-bottom-left-radius: 5em;
   color: var(--colour_light, #f8f9fa);
-  text-shadow: 2px 2px 1px black;
+  text-shadow: 2px 2px 1px black;a
   text-align: center;
   font-size: 2.5em;
   line-height: 1.5;
@@ -103,6 +103,7 @@ nav ul li {
 }
 
 nav ul li a {
+  width: 100%;
   color: inherit;
   text-decoration: none;
   font-size: 1.25em;
@@ -196,7 +197,7 @@ section .subsection_box {
 }
 
 .subsection_box .sub_menu {
-  margin: 0.5em;
+  margin: 0.3em 0.5em;
   padding: 0.5em;
 }
 
@@ -829,12 +830,21 @@ The little touches
 =================*/
 
 /*Back to top - only for small mobile screen views*/
+
 .backtotop {
   position: absolute;
   bottom: 0;
-  right: 0;
-  font-size: 2rem;
-  padding: 0.4rem;
+  right: 0.8em;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  color: black;
+}
+
+.backtotop a:link,
+.backtotop a:hover,
+.backtotop a:active,
+.backtotop a:visited {
+  color: black;
 }
 
 /*================
