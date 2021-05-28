@@ -455,6 +455,42 @@ figure div {
 
 /*FONT SIZE & CLAMP EXAMPLE*/
 
+#f_size_section #font_size_xxs {
+  font-size: xx-small;
+}
+
+#f_size_section #font_size_xs {
+  font-size: x-small;
+}
+
+#f_size_section #font_size_s {
+  font-size: small;
+}
+
+#f_size_section #font_size_m {
+  font-size: medium;
+}
+
+#f_size_section #font_size_l {
+  font-size: large;
+}
+
+#f_size_section #font_size_xl {
+  font-size: x-large;
+}
+
+#f_size_section #font_size_xxl {
+  font-size: xx-large;
+}
+
+#f_size_section #font_size_l-er {
+  font-size: larger;
+}
+
+#f_size_section #font_size_s-er {
+  font-size: smaller;
+}
+
 .size_example_boxes h1 {
   font-size: 2em;
   font-weight: bolder;
