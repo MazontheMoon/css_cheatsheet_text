@@ -31,8 +31,9 @@ Finding your way around
 5b. Subsection 2 - Font Size
 5c. Subsection 3 - Font Weight
 5d. Subsection 4 - Text Transform
-54. Subsection 5 - Text Decoration
-5f. Subsection 6 -  Text Drop Shadows
+5e. Subsection 5 - Text Decoration
+5f. Subsection 6 - Text Emphasis
+5g. Subsection 7 -  Text Drop Shadows
 6. Section 4 - Text Layout
 6a. Subsection 1 - Alignment
 6b. Subsection 2 - Line Height
@@ -52,9 +53,7 @@ Finding your way around
 =========================-->
 <body>
   <header>
-    <!--page header title-->
     <h1>CSS Fonts and Text</h1>
-    <!--nav menu-->
     <nav>
       <ul>
         <li><a href="#intro_box">Intro</a></li>
@@ -182,6 +181,7 @@ Finding your way around
         <li><a href="#f_weight_section">Font Weight</a></li>
         <li><a href="#t_trans_section">Text Transform</a></li>
         <li><a href="#t_dec_section">Text Decoration</a></li>
+        <li><a href="#t_em_section">Text Emphasis</a></li>
         <li><a href="#t_shadow_section">Text Drop Shadows</a></li>
       </ul>
       <!--section 3 - font-style - subsection 1 font-size-->
@@ -341,7 +341,29 @@ Finding your way around
           <p>This goes without saying....</p>
         </div>
       </div>
-      <!--section 3 - font-style - subsection 6 text-drop-shadows-->
+      <!--section 3 - font-style - subsection 6 text-emphasis-->
+      <div id="t_em_section" class="subsection_box">
+        <h3>Text Emphasis</h3>
+        <div class="code_box">
+          <code> p span {<br>
+            text-emphasis: filled;<br>
+            /*shorthand for text-emphasis-style and text-emphasis-color*/<br>
+            }</code>
+        </div>
+        <ul class="example_boxes">
+          <li>none</li>
+          <li id="t_em_filled">filled</li>
+          <li id="t_em_open">open</li>
+          <li id="t_em_dot">dot</li>
+          <li id="t_em_circle">circle</li>
+          <li id="t_em_dcircle">double-circle</li>
+          <li id="t_em_triangle">triangle</li>
+          <li id="t_em_sesame">sesame</li>
+          <li id="t_em_string">string</li>
+          <li id="t_em_color">color</li>
+        </ul>
+      </div>
+      <!--section 3 - font-style - subsection 7 text-drop-shadows-->
       <div id="t_shadow_section" class="subsection_box">
         <h3>Text Drop Shadows</h3>
         <div class="code_box">
