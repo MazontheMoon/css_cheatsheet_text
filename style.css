@@ -662,6 +662,43 @@ figure div {
   text-underline-offset: 3px;
 }
 
+/*TEXT EMPHASIS EXAMPLES*/
+#t_em_filled {
+  text-emphasis: filled;
+}
+
+#t_em_open {
+  text-emphasis: open;
+}
+
+#t_em_dot {
+  text-emphasis: dot;
+}
+
+#t_em_circle {
+  text-emphasis: circle;
+}
+
+#t_em_dcircle {
+  text-emphasis: double-circle;
+}
+
+#t_em_triangle {
+  text-emphasis: triangle;
+}
+
+#t_em_sesame {
+  text-emphasis: sesame;
+}
+
+#t_em_string {
+  text-emphasis: "s";
+}
+
+#t_em_color {
+  text-emphasis: filled white;
+}
+
 /*TEXT SHADOW EXAMPLES*/
 
 #shadow_h {
