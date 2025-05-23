@@ -803,6 +803,27 @@ figure div {
   white-space: break-space;
 }
 
+/*TEXT WRAP EXAMPLES*/
+#text_wrap {
+  text-wrap: wrap;
+}
+
+#text_wrap-nowrap {
+  text-wrap: nowrap;
+}
+
+#text_wrap_balance {
+  text-wrap: balance;
+}
+
+#text_wrap_pretty {
+  text-wrap: pretty;
+}
+
+#text_wrap_stable {
+  text-wrap: stable;
+}
+
 /*TEXT OVERFLOW EXAMPLES*/
 #overflow_section div {
   width: 250px;
